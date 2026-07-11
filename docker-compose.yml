@@ -1,0 +1,24 @@
+services:
+  openldap:
+    image: osixia/openldap:1.5.0
+    container_name: directoryLdap
+    restart: unless-stopped
+
+    environment:
+      LDAP_ORGANISATION: "local directory ldap"
+      LDAP_DOMAIN: "admin.local"
+      LDAP_ADMIN_PASSWORD: "admin"
+
+    ports:
+      - "3890:389"
+
+    command: --copy-service
+
+    volumes:
+      - getworker_ldap_data:/var/lib/ldap
+      - getworker_ldap_config:/etc/ldap/slapd.d
+      - ./docker/ldap/sampledata.ldif:/container/service/slapd/assets/config/bootstrap/ldif/custom/sampledata.ldif
+
+volumes:
+  getworker_ldap_data:
+  getworker_ldap_config:

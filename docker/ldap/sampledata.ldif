@@ -1,8 +1,8 @@
-dn: ou=Employees,dc=tester,dc=local
+dn: ou=Employees,dc=admin,dc=local
 objectClass: organizationalUnit
 ou: Employees
 
-dn: uid=john.smith,ou=Employees,dc=tester,dc=local
+dn: uid=john.smith,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -11,7 +11,7 @@ uid: john.smith
 cn: John Smith
 sn: Smith
 givenName: John
-mail: john.smith@tester.local
+mail: john.smith@admin.local
 telephoneNumber: +7 777 100 10 10
 title: Backend Developer
 departmentNumber: IT
@@ -20,7 +20,7 @@ employeeNumber: 00001
 roomNumber: 1001
 userPassword: password
 
-dn: uid=anna.muller,ou=Employees,dc=tester,dc=local
+dn: uid=anna.muller,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -29,7 +29,7 @@ uid: anna.muller
 cn: Anna Muller
 sn: Muller
 givenName: Anna
-mail: anna.muller@tester.local
+mail: anna.muller@admin.local
 telephoneNumber: +7 777 100 10 11
 title: HR Specialist
 departmentNumber: HR
@@ -38,7 +38,7 @@ employeeNumber: 00002
 roomNumber: 1002
 userPassword: password
 
-dn: uid=michael.schmidt,ou=Employees,dc=tester,dc=local
+dn: uid=michael.schmidt,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -47,7 +47,7 @@ uid: michael.schmidt
 cn: Michael Schmidt
 sn: Schmidt
 givenName: Michael
-mail: michael.schmidt@tester.local
+mail: michael.schmidt@admin.local
 telephoneNumber: +7 777 100 10 12
 title: System Administrator
 departmentNumber: IT
@@ -56,7 +56,7 @@ employeeNumber: 00003
 roomNumber: 1003
 userPassword: password
 
-dn: uid=sofia.rossi,ou=Employees,dc=tester,dc=local
+dn: uid=sofia.rossi,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -65,7 +65,7 @@ uid: sofia.rossi
 cn: Sofia Rossi
 sn: Rossi
 givenName: Sofia
-mail: sofia.rossi@tester.local
+mail: sofia.rossi@admin.local
 telephoneNumber: +7 777 100 10 13
 title: Accountant
 departmentNumber: Finance
@@ -74,7 +74,7 @@ employeeNumber: 00004
 roomNumber: 1004
 userPassword: password
 
-dn: uid=david.garcia,ou=Employees,dc=tester,dc=local
+dn: uid=david.garcia,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -83,7 +83,7 @@ uid: david.garcia
 cn: David Garcia
 sn: Garcia
 givenName: David
-mail: david.garcia@tester.local
+mail: david.garcia@admin.local
 telephoneNumber: +7 777 100 10 14
 title: Project Manager
 departmentNumber: Operations
@@ -92,7 +92,7 @@ employeeNumber: 00005
 roomNumber: 1005
 userPassword: password
 
-dn: uid=emma.dubois,ou=Employees,dc=tester,dc=local
+dn: uid=emma.dubois,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -101,7 +101,7 @@ uid: emma.dubois
 cn: Emma Dubois
 sn: Dubois
 givenName: Emma
-mail: emma.dubois@tester.local
+mail: emma.dubois@admin.local
 telephoneNumber: +7 777 100 10 15
 title: Legal Counsel
 departmentNumber: Legal
@@ -110,7 +110,7 @@ employeeNumber: 00006
 roomNumber: 1006
 userPassword: password
 
-dn: uid=thomas.weber,ou=Employees,dc=tester,dc=local
+dn: uid=thomas.weber,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -119,7 +119,7 @@ uid: thomas.weber
 cn: Thomas Weber
 sn: Weber
 givenName: Thomas
-mail: thomas.weber@tester.local
+mail: thomas.weber@admin.local
 telephoneNumber: +7 777 100 10 16
 title: Security Engineer
 departmentNumber: Security
@@ -128,7 +128,7 @@ employeeNumber: 00007
 roomNumber: 1007
 userPassword: password
 
-dn: uid=laura.ferrari,ou=Employees,dc=tester,dc=local
+dn: uid=laura.ferrari,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -137,7 +137,7 @@ uid: laura.ferrari
 cn: Laura Ferrari
 sn: Ferrari
 givenName: Laura
-mail: laura.ferrari@tester.local
+mail: laura.ferrari@admin.local
 telephoneNumber: +7 777 100 10 17
 title: Marketing Specialist
 departmentNumber: Marketing
@@ -146,7 +146,7 @@ employeeNumber: 00008
 roomNumber: 1008
 userPassword: password
 
-dn: uid=daniel.andersen,ou=Employees,dc=tester,dc=local
+dn: uid=daniel.andersen,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -155,7 +155,7 @@ uid: daniel.andersen
 cn: Daniel Andersen
 sn: Andersen
 givenName: Daniel
-mail: daniel.andersen@tester.local
+mail: daniel.andersen@admin.local
 telephoneNumber: +7 777 100 10 18
 title: Database Administrator
 departmentNumber: IT
@@ -164,7 +164,7 @@ employeeNumber: 00009
 roomNumber: 1009
 userPassword: password
 
-dn: uid=clara.nowak,ou=Employees,dc=tester,dc=local
+dn: uid=clara.nowak,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -173,7 +173,7 @@ uid: clara.nowak
 cn: Clara Nowak
 sn: Nowak
 givenName: Clara
-mail: clara.nowak@tester.local
+mail: clara.nowak@admin.local
 telephoneNumber: +7 777 100 10 19
 title: Procurement Specialist
 departmentNumber: Procurement
@@ -182,7 +182,7 @@ employeeNumber: 00010
 roomNumber: 1010
 userPassword: password
 
-dn: uid=robert.kowalski,ou=Employees,dc=tester,dc=local
+dn: uid=robert.kowalski,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -191,7 +191,7 @@ uid: robert.kowalski
 cn: Robert Kowalski
 sn: Kowalski
 givenName: Robert
-mail: robert.kowalski@tester.local
+mail: robert.kowalski@admin.local
 telephoneNumber: +7 777 100 10 20
 title: Support Specialist
 departmentNumber: Customer Support
@@ -200,7 +200,7 @@ employeeNumber: 00011
 roomNumber: 1011
 userPassword: password
 
-dn: uid=alice.martinez,ou=Employees,dc=tester,dc=local
+dn: uid=alice.martinez,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -209,7 +209,7 @@ uid: alice.martinez
 cn: Alice Martinez
 sn: Martinez
 givenName: Alice
-mail: alice.martinez@tester.local
+mail: alice.martinez@admin.local
 telephoneNumber: +7 777 100 10 21
 title: Business Analyst
 departmentNumber: Operations
@@ -218,7 +218,7 @@ employeeNumber: 00012
 roomNumber: 1012
 userPassword: password
 
-dn: uid=henry.brown,ou=Employees,dc=tester,dc=local
+dn: uid=henry.brown,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -227,7 +227,7 @@ uid: henry.brown
 cn: Henry Brown
 sn: Brown
 givenName: Henry
-mail: henry.brown@tester.local
+mail: henry.brown@admin.local
 telephoneNumber: +7 777 100 10 22
 title: Frontend Developer
 departmentNumber: IT
@@ -236,7 +236,7 @@ employeeNumber: 00013
 roomNumber: 1013
 userPassword: password
 
-dn: uid=maria.lopez,ou=Employees,dc=tester,dc=local
+dn: uid=maria.lopez,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -245,7 +245,7 @@ uid: maria.lopez
 cn: Maria Lopez
 sn: Lopez
 givenName: Maria
-mail: maria.lopez@tester.local
+mail: maria.lopez@admin.local
 telephoneNumber: +7 777 100 10 23
 title: HR Manager
 departmentNumber: HR
@@ -254,7 +254,7 @@ employeeNumber: 00014
 roomNumber: 1014
 userPassword: password
 
-dn: uid=peter.novak,ou=Employees,dc=tester,dc=local
+dn: uid=peter.novak,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -263,7 +263,7 @@ uid: peter.novak
 cn: Peter Novak
 sn: Novak
 givenName: Peter
-mail: peter.novak@tester.local
+mail: peter.novak@admin.local
 telephoneNumber: +7 777 100 10 24
 title: Operations Manager
 departmentNumber: Operations
@@ -272,7 +272,7 @@ employeeNumber: 00015
 roomNumber: 1015
 userPassword: password
 
-dn: uid=olivia.wilson,ou=Employees,dc=tester,dc=local
+dn: uid=olivia.wilson,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -281,7 +281,7 @@ uid: olivia.wilson
 cn: Olivia Wilson
 sn: Wilson
 givenName: Olivia
-mail: olivia.wilson@tester.local
+mail: olivia.wilson@admin.local
 telephoneNumber: +7 777 100 10 25
 title: Finance Analyst
 departmentNumber: Finance
@@ -290,7 +290,7 @@ employeeNumber: 00016
 roomNumber: 1016
 userPassword: password
 
-dn: uid=lucas.moreau,ou=Employees,dc=tester,dc=local
+dn: uid=lucas.moreau,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -299,7 +299,7 @@ uid: lucas.moreau
 cn: Lucas Moreau
 sn: Moreau
 givenName: Lucas
-mail: lucas.moreau@tester.local
+mail: lucas.moreau@admin.local
 telephoneNumber: +7 777 100 10 26
 title: Sales Manager
 departmentNumber: Sales
@@ -308,7 +308,7 @@ employeeNumber: 00017
 roomNumber: 1017
 userPassword: password
 
-dn: uid=eva.hansen,ou=Employees,dc=tester,dc=local
+dn: uid=eva.hansen,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -317,7 +317,7 @@ uid: eva.hansen
 cn: Eva Hansen
 sn: Hansen
 givenName: Eva
-mail: eva.hansen@tester.local
+mail: eva.hansen@admin.local
 telephoneNumber: +7 777 100 10 27
 title: Legal Assistant
 departmentNumber: Legal
@@ -326,7 +326,7 @@ employeeNumber: 00018
 roomNumber: 1018
 userPassword: password
 
-dn: uid=martin.klein,ou=Employees,dc=tester,dc=local
+dn: uid=martin.klein,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -335,7 +335,7 @@ uid: martin.klein
 cn: Martin Klein
 sn: Klein
 givenName: Martin
-mail: martin.klein@tester.local
+mail: martin.klein@admin.local
 telephoneNumber: +7 777 100 10 28
 title: Network Engineer
 departmentNumber: IT
@@ -344,7 +344,7 @@ employeeNumber: 00019
 roomNumber: 1019
 userPassword: password
 
-dn: uid=chloe.laurent,ou=Employees,dc=tester,dc=local
+dn: uid=chloe.laurent,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -353,7 +353,7 @@ uid: chloe.laurent
 cn: Chloe Laurent
 sn: Laurent
 givenName: Chloe
-mail: chloe.laurent@tester.local
+mail: chloe.laurent@admin.local
 telephoneNumber: +7 777 100 10 29
 title: Marketing Manager
 departmentNumber: Marketing
@@ -362,7 +362,7 @@ employeeNumber: 00020
 roomNumber: 1020
 userPassword: password
 
-dn: uid=george.taylor,ou=Employees,dc=tester,dc=local
+dn: uid=george.taylor,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -371,7 +371,7 @@ uid: george.taylor
 cn: George Taylor
 sn: Taylor
 givenName: George
-mail: george.taylor@tester.local
+mail: george.taylor@admin.local
 telephoneNumber: +7 777 100 10 30
 title: Logistics Coordinator
 departmentNumber: Logistics
@@ -380,7 +380,7 @@ employeeNumber: 00021
 roomNumber: 1021
 userPassword: password
 
-dn: uid=lucia.romano,ou=Employees,dc=tester,dc=local
+dn: uid=lucia.romano,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -389,7 +389,7 @@ uid: lucia.romano
 cn: Lucia Romano
 sn: Romano
 givenName: Lucia
-mail: lucia.romano@tester.local
+mail: lucia.romano@admin.local
 telephoneNumber: +7 777 100 10 31
 title: Accountant
 departmentNumber: Finance
@@ -398,7 +398,7 @@ employeeNumber: 00022
 roomNumber: 1022
 userPassword: password
 
-dn: uid=felix.hoffmann,ou=Employees,dc=tester,dc=local
+dn: uid=felix.hoffmann,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -407,7 +407,7 @@ uid: felix.hoffmann
 cn: Felix Hoffmann
 sn: Hoffmann
 givenName: Felix
-mail: felix.hoffmann@tester.local
+mail: felix.hoffmann@admin.local
 telephoneNumber: +7 777 100 10 32
 title: DevOps Engineer
 departmentNumber: IT
@@ -416,7 +416,7 @@ employeeNumber: 00023
 roomNumber: 1023
 userPassword: password
 
-dn: uid=elena.sanchez,ou=Employees,dc=tester,dc=local
+dn: uid=elena.sanchez,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -425,7 +425,7 @@ uid: elena.sanchez
 cn: Elena Sanchez
 sn: Sanchez
 givenName: Elena
-mail: elena.sanchez@tester.local
+mail: elena.sanchez@admin.local
 telephoneNumber: +7 777 100 10 33
 title: Customer Support Lead
 departmentNumber: Customer Support
@@ -434,7 +434,7 @@ employeeNumber: 00024
 roomNumber: 1024
 userPassword: password
 
-dn: uid=arthur.scott,ou=Employees,dc=tester,dc=local
+dn: uid=arthur.scott,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -443,7 +443,7 @@ uid: arthur.scott
 cn: Arthur Scott
 sn: Scott
 givenName: Arthur
-mail: arthur.scott@tester.local
+mail: arthur.scott@admin.local
 telephoneNumber: +7 777 100 10 34
 title: Security Analyst
 departmentNumber: Security
@@ -452,7 +452,7 @@ employeeNumber: 00025
 roomNumber: 1025
 userPassword: password
 
-dn: uid=amelia.fischer,ou=Employees,dc=tester,dc=local
+dn: uid=amelia.fischer,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -461,7 +461,7 @@ uid: amelia.fischer
 cn: Amelia Fischer
 sn: Fischer
 givenName: Amelia
-mail: amelia.fischer@tester.local
+mail: amelia.fischer@admin.local
 telephoneNumber: +7 777 100 10 35
 title: Procurement Manager
 departmentNumber: Procurement
@@ -470,7 +470,7 @@ employeeNumber: 00026
 roomNumber: 1026
 userPassword: password
 
-dn: uid=alexander.wagner,ou=Employees,dc=tester,dc=local
+dn: uid=alexander.wagner,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -479,7 +479,7 @@ uid: alexander.wagner
 cn: Alexander Wagner
 sn: Wagner
 givenName: Alexander
-mail: alexander.wagner@tester.local
+mail: alexander.wagner@admin.local
 telephoneNumber: +7 777 100 10 36
 title: Software Architect
 departmentNumber: IT
@@ -488,7 +488,7 @@ employeeNumber: 00027
 roomNumber: 1027
 userPassword: password
 
-dn: uid=camille.lefevre,ou=Employees,dc=tester,dc=local
+dn: uid=camille.lefevre,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -497,7 +497,7 @@ uid: camille.lefevre
 cn: Camille Lefevre
 sn: Lefevre
 givenName: Camille
-mail: camille.lefevre@tester.local
+mail: camille.lefevre@admin.local
 telephoneNumber: +7 777 100 10 37
 title: Business Analyst
 departmentNumber: Operations
@@ -506,7 +506,7 @@ employeeNumber: 00028
 roomNumber: 1028
 userPassword: password
 
-dn: uid=sebastian.wolf,ou=Employees,dc=tester,dc=local
+dn: uid=sebastian.wolf,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -515,7 +515,7 @@ uid: sebastian.wolf
 cn: Sebastian Wolf
 sn: Wolf
 givenName: Sebastian
-mail: sebastian.wolf@tester.local
+mail: sebastian.wolf@admin.local
 telephoneNumber: +7 777 100 10 38
 title: Database Administrator
 departmentNumber: IT
@@ -524,7 +524,7 @@ employeeNumber: 00029
 roomNumber: 1029
 userPassword: password
 
-dn: uid=isabella.conti,ou=Employees,dc=tester,dc=local
+dn: uid=isabella.conti,ou=Employees,dc=admin,dc=local
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -533,7 +533,7 @@ uid: isabella.conti
 cn: Isabella Conti
 sn: Conti
 givenName: Isabella
-mail: isabella.conti@tester.local
+mail: isabella.conti@admin.local
 telephoneNumber: +7 777 100 10 39
 title: Sales Specialist
 departmentNumber: Sales

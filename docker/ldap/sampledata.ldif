@@ -1,0 +1,543 @@
+dn: ou=Employees,dc=tester,dc=local
+objectClass: organizationalUnit
+ou: Employees
+
+dn: uid=john.smith,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: john.smith
+cn: John Smith
+sn: Smith
+givenName: John
+mail: john.smith@tester.local
+telephoneNumber: +7 777 100 10 10
+title: Backend Developer
+departmentNumber: IT
+o: Main Corporation
+employeeNumber: 00001
+roomNumber: 1001
+userPassword: password
+
+dn: uid=anna.muller,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: anna.muller
+cn: Anna Muller
+sn: Muller
+givenName: Anna
+mail: anna.muller@tester.local
+telephoneNumber: +7 777 100 10 11
+title: HR Specialist
+departmentNumber: HR
+o: Main Corporation
+employeeNumber: 00002
+roomNumber: 1002
+userPassword: password
+
+dn: uid=michael.schmidt,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: michael.schmidt
+cn: Michael Schmidt
+sn: Schmidt
+givenName: Michael
+mail: michael.schmidt@tester.local
+telephoneNumber: +7 777 100 10 12
+title: System Administrator
+departmentNumber: IT
+o: North Subsidiary
+employeeNumber: 00003
+roomNumber: 1003
+userPassword: password
+
+dn: uid=sofia.rossi,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: sofia.rossi
+cn: Sofia Rossi
+sn: Rossi
+givenName: Sofia
+mail: sofia.rossi@tester.local
+telephoneNumber: +7 777 100 10 13
+title: Accountant
+departmentNumber: Finance
+o: Main Corporation
+employeeNumber: 00004
+roomNumber: 1004
+userPassword: password
+
+dn: uid=david.garcia,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: david.garcia
+cn: David Garcia
+sn: Garcia
+givenName: David
+mail: david.garcia@tester.local
+telephoneNumber: +7 777 100 10 14
+title: Project Manager
+departmentNumber: Operations
+o: South Subsidiary
+employeeNumber: 00005
+roomNumber: 1005
+userPassword: password
+
+dn: uid=emma.dubois,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: emma.dubois
+cn: Emma Dubois
+sn: Dubois
+givenName: Emma
+mail: emma.dubois@tester.local
+telephoneNumber: +7 777 100 10 15
+title: Legal Counsel
+departmentNumber: Legal
+o: Main Corporation
+employeeNumber: 00006
+roomNumber: 1006
+userPassword: password
+
+dn: uid=thomas.weber,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: thomas.weber
+cn: Thomas Weber
+sn: Weber
+givenName: Thomas
+mail: thomas.weber@tester.local
+telephoneNumber: +7 777 100 10 16
+title: Security Engineer
+departmentNumber: Security
+o: West Subsidiary
+employeeNumber: 00007
+roomNumber: 1007
+userPassword: password
+
+dn: uid=laura.ferrari,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: laura.ferrari
+cn: Laura Ferrari
+sn: Ferrari
+givenName: Laura
+mail: laura.ferrari@tester.local
+telephoneNumber: +7 777 100 10 17
+title: Marketing Specialist
+departmentNumber: Marketing
+o: East Subsidiary
+employeeNumber: 00008
+roomNumber: 1008
+userPassword: password
+
+dn: uid=daniel.andersen,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: daniel.andersen
+cn: Daniel Andersen
+sn: Andersen
+givenName: Daniel
+mail: daniel.andersen@tester.local
+telephoneNumber: +7 777 100 10 18
+title: Database Administrator
+departmentNumber: IT
+o: North Subsidiary
+employeeNumber: 00009
+roomNumber: 1009
+userPassword: password
+
+dn: uid=clara.nowak,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: clara.nowak
+cn: Clara Nowak
+sn: Nowak
+givenName: Clara
+mail: clara.nowak@tester.local
+telephoneNumber: +7 777 100 10 19
+title: Procurement Specialist
+departmentNumber: Procurement
+o: Main Corporation
+employeeNumber: 00010
+roomNumber: 1010
+userPassword: password
+
+dn: uid=robert.kowalski,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: robert.kowalski
+cn: Robert Kowalski
+sn: Kowalski
+givenName: Robert
+mail: robert.kowalski@tester.local
+telephoneNumber: +7 777 100 10 20
+title: Support Specialist
+departmentNumber: Customer Support
+o: South Subsidiary
+employeeNumber: 00011
+roomNumber: 1011
+userPassword: password
+
+dn: uid=alice.martinez,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: alice.martinez
+cn: Alice Martinez
+sn: Martinez
+givenName: Alice
+mail: alice.martinez@tester.local
+telephoneNumber: +7 777 100 10 21
+title: Business Analyst
+departmentNumber: Operations
+o: West Subsidiary
+employeeNumber: 00012
+roomNumber: 1012
+userPassword: password
+
+dn: uid=henry.brown,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: henry.brown
+cn: Henry Brown
+sn: Brown
+givenName: Henry
+mail: henry.brown@tester.local
+telephoneNumber: +7 777 100 10 22
+title: Frontend Developer
+departmentNumber: IT
+o: Main Corporation
+employeeNumber: 00013
+roomNumber: 1013
+userPassword: password
+
+dn: uid=maria.lopez,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: maria.lopez
+cn: Maria Lopez
+sn: Lopez
+givenName: Maria
+mail: maria.lopez@tester.local
+telephoneNumber: +7 777 100 10 23
+title: HR Manager
+departmentNumber: HR
+o: East Subsidiary
+employeeNumber: 00014
+roomNumber: 1014
+userPassword: password
+
+dn: uid=peter.novak,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: peter.novak
+cn: Peter Novak
+sn: Novak
+givenName: Peter
+mail: peter.novak@tester.local
+telephoneNumber: +7 777 100 10 24
+title: Operations Manager
+departmentNumber: Operations
+o: North Subsidiary
+employeeNumber: 00015
+roomNumber: 1015
+userPassword: password
+
+dn: uid=olivia.wilson,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: olivia.wilson
+cn: Olivia Wilson
+sn: Wilson
+givenName: Olivia
+mail: olivia.wilson@tester.local
+telephoneNumber: +7 777 100 10 25
+title: Finance Analyst
+departmentNumber: Finance
+o: Main Corporation
+employeeNumber: 00016
+roomNumber: 1016
+userPassword: password
+
+dn: uid=lucas.moreau,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: lucas.moreau
+cn: Lucas Moreau
+sn: Moreau
+givenName: Lucas
+mail: lucas.moreau@tester.local
+telephoneNumber: +7 777 100 10 26
+title: Sales Manager
+departmentNumber: Sales
+o: South Subsidiary
+employeeNumber: 00017
+roomNumber: 1017
+userPassword: password
+
+dn: uid=eva.hansen,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: eva.hansen
+cn: Eva Hansen
+sn: Hansen
+givenName: Eva
+mail: eva.hansen@tester.local
+telephoneNumber: +7 777 100 10 27
+title: Legal Assistant
+departmentNumber: Legal
+o: West Subsidiary
+employeeNumber: 00018
+roomNumber: 1018
+userPassword: password
+
+dn: uid=martin.klein,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: martin.klein
+cn: Martin Klein
+sn: Klein
+givenName: Martin
+mail: martin.klein@tester.local
+telephoneNumber: +7 777 100 10 28
+title: Network Engineer
+departmentNumber: IT
+o: Main Corporation
+employeeNumber: 00019
+roomNumber: 1019
+userPassword: password
+
+dn: uid=chloe.laurent,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: chloe.laurent
+cn: Chloe Laurent
+sn: Laurent
+givenName: Chloe
+mail: chloe.laurent@tester.local
+telephoneNumber: +7 777 100 10 29
+title: Marketing Manager
+departmentNumber: Marketing
+o: East Subsidiary
+employeeNumber: 00020
+roomNumber: 1020
+userPassword: password
+
+dn: uid=george.taylor,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: george.taylor
+cn: George Taylor
+sn: Taylor
+givenName: George
+mail: george.taylor@tester.local
+telephoneNumber: +7 777 100 10 30
+title: Logistics Coordinator
+departmentNumber: Logistics
+o: North Subsidiary
+employeeNumber: 00021
+roomNumber: 1021
+userPassword: password
+
+dn: uid=lucia.romano,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: lucia.romano
+cn: Lucia Romano
+sn: Romano
+givenName: Lucia
+mail: lucia.romano@tester.local
+telephoneNumber: +7 777 100 10 31
+title: Accountant
+departmentNumber: Finance
+o: South Subsidiary
+employeeNumber: 00022
+roomNumber: 1022
+userPassword: password
+
+dn: uid=felix.hoffmann,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: felix.hoffmann
+cn: Felix Hoffmann
+sn: Hoffmann
+givenName: Felix
+mail: felix.hoffmann@tester.local
+telephoneNumber: +7 777 100 10 32
+title: DevOps Engineer
+departmentNumber: IT
+o: Main Corporation
+employeeNumber: 00023
+roomNumber: 1023
+userPassword: password
+
+dn: uid=elena.sanchez,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: elena.sanchez
+cn: Elena Sanchez
+sn: Sanchez
+givenName: Elena
+mail: elena.sanchez@tester.local
+telephoneNumber: +7 777 100 10 33
+title: Customer Support Lead
+departmentNumber: Customer Support
+o: West Subsidiary
+employeeNumber: 00024
+roomNumber: 1024
+userPassword: password
+
+dn: uid=arthur.scott,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: arthur.scott
+cn: Arthur Scott
+sn: Scott
+givenName: Arthur
+mail: arthur.scott@tester.local
+telephoneNumber: +7 777 100 10 34
+title: Security Analyst
+departmentNumber: Security
+o: Main Corporation
+employeeNumber: 00025
+roomNumber: 1025
+userPassword: password
+
+dn: uid=amelia.fischer,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: amelia.fischer
+cn: Amelia Fischer
+sn: Fischer
+givenName: Amelia
+mail: amelia.fischer@tester.local
+telephoneNumber: +7 777 100 10 35
+title: Procurement Manager
+departmentNumber: Procurement
+o: East Subsidiary
+employeeNumber: 00026
+roomNumber: 1026
+userPassword: password
+
+dn: uid=alexander.wagner,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: alexander.wagner
+cn: Alexander Wagner
+sn: Wagner
+givenName: Alexander
+mail: alexander.wagner@tester.local
+telephoneNumber: +7 777 100 10 36
+title: Software Architect
+departmentNumber: IT
+o: North Subsidiary
+employeeNumber: 00027
+roomNumber: 1027
+userPassword: password
+
+dn: uid=camille.lefevre,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: camille.lefevre
+cn: Camille Lefevre
+sn: Lefevre
+givenName: Camille
+mail: camille.lefevre@tester.local
+telephoneNumber: +7 777 100 10 37
+title: Business Analyst
+departmentNumber: Operations
+o: South Subsidiary
+employeeNumber: 00028
+roomNumber: 1028
+userPassword: password
+
+dn: uid=sebastian.wolf,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: sebastian.wolf
+cn: Sebastian Wolf
+sn: Wolf
+givenName: Sebastian
+mail: sebastian.wolf@tester.local
+telephoneNumber: +7 777 100 10 38
+title: Database Administrator
+departmentNumber: IT
+o: Main Corporation
+employeeNumber: 00029
+roomNumber: 1029
+userPassword: password
+
+dn: uid=isabella.conti,ou=Employees,dc=tester,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: isabella.conti
+cn: Isabella Conti
+sn: Conti
+givenName: Isabella
+mail: isabella.conti@tester.local
+telephoneNumber: +7 777 100 10 39
+title: Sales Specialist
+departmentNumber: Sales
+o: West Subsidiary
+employeeNumber: 00030
+roomNumber: 1030
+userPassword: password

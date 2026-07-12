@@ -1,13 +1,13 @@
 package getworker.backend.auth;
 
-public class loginresponse {
+public class LoginResponse {
     private boolean success;
     private String message;
 
-    public loginresponse() {
+    public LoginResponse() {
     }
 
-    public loginresponse(boolean success, String message) {
+    public LoginResponse(boolean success, String message) {
         this.success = success;
         this.message = message;
     }
@@ -18,5 +18,13 @@ public class loginresponse {
 
     public String getMessage() {
         return message;
+    }
+
+    public void setSuccess(boolean success) {
+        this.success = success;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

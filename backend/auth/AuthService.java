@@ -1,9 +1,10 @@
 package getworker.backend.auth;
+import getworker.backend.ldap.ldapAuthService;
 
 public class AuthService {
     
     public LoginResponse login(LoginRequest request) {
-        
+    
         if (request == null) {
             return new LoginResponse(false, "Empty error: empty login");
         }
@@ -19,10 +20,12 @@ public class AuthService {
             return new LoginResponse(false, "Password error: password is required");
         }
         
-        if (username.equals("eva.hansen") || password.equals("cGFzc3dvcmQ=")) {
+        boolean authenticated = ldapAuthService.authenticate(username, password);
+        if (authenticated) {
             return new LoginResponse(true, "Success!");
         }
-
-        return new LoginResponse(false,"Invalid user or password.");    
+        else {
+            return new LoginResponse(false, "Invalid credentials");
+        }    
     }
 }

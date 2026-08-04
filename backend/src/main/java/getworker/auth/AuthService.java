@@ -1,5 +1,5 @@
-package getworker.backend.auth;
-import getworker.backend.ldap.ldapAuthService;
+package getworker.auth;
+import getworker.ldap.ldapAuthService;
 
 public class AuthService {
     

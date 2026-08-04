@@ -1,4 +1,4 @@
-package getworker.backend.ldap;
+package getworker.ldap;
 
 public class ldapAuthService {
     public static boolean authenticate(String username, String password) {

@@ -2,37 +2,39 @@ const loginForm = document.getElementById("loginForm");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 
-loginForm.addEventListener("submit", async function (event) {
+loginForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const username = usernameInput.value;
-    const password = passwordInput.value;
-
-    if (username === "") {
-        console.error("Username is empty");
-        return;
-    }
-
-    if (password === "") {
-        console.error("Password is empty");
-        return;
-    }
-
-    const loginData = {
-        username: username,
-        password: password
+    const userData = {
+        username: usernameInput.value,
+        password: passwordInput.value
     };
 
-    const response = await fetch("api/auth/login", 
-        {
+    loginUser(userData);
+});
+
+
+async function loginUser(userData) {
+    try {
+        const response = await fetch("/api/auth/login", {
             method: "POST",
+
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(loginData)
-        }
-    ).catch(function (error) {
-        console.log("cant connect to backend: ", error);
-        return null;
-    });
 
+            body: JSON.stringify(userData)
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error: ${response.status}`);
+        }
+
+        const result = await response.json();
+
+        console.log("Backend response:", result);
+
+    } catch (error) {
+        console.error("Login error:", error);
+    }
+}

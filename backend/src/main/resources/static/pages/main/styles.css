@@ -1,0 +1,58 @@
+body {
+    background-color: #e0dfdf;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#myH1 {
+    text-align: center;
+    margin-top: 5%;
+    color: #a3a3a3;
+    letter-spacing: 50%;
+    font-size: 40px;
+}
+
+#myTable {
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 67%;
+    margin: 50px auto 0;
+    box-shadow: 0 2px 12px #0d0339;
+    
+}
+
+
+
+#myTable td {
+    border: 1px solid #222;
+    padding: 15px 20px;
+
+    transition: background-color 0.25s ease;
+}
+
+#myTable tbody tr:hover td {
+    background-color: #eeeeee;
+}
+
+
+
+
+#myTable th,
+#myTable td {
+    border: 1px solid #222222;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+#myTable th {
+    background-color: #333333;
+    color: white;
+}
+
+
+
+
+
+
+
+

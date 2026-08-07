@@ -8,6 +8,7 @@ public class LdapAuthService {
         String userDn = "uid=" + username + ",ou=Employees,dc=admin,dc=local";
 
         ProcessBuilder processBuilder = new ProcessBuilder(
+                "sudo",
                 "docker",
                 "exec",
                 "directoryLdap",

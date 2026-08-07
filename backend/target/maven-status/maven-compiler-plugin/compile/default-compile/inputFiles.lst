@@ -1,5 +1,6 @@
 /home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/Main.java
+/home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/auth/AuthController.java
 /home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/auth/AuthService.java
 /home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/auth/LoginRequest.java
 /home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/auth/LoginResponse.java
-/home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/ldap/ldapAuthService.java
+/home/kc8/Desktop/projekte/getworker/backend/src/main/java/getworker/ldap/LdapAuthService.java

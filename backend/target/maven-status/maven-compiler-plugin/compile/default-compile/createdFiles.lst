@@ -1,5 +1,6 @@
-getworker/Main.class
 getworker/auth/LoginRequest.class
 getworker/auth/AuthService.class
+getworker/auth/AuthController.class
+getworker/Main.class
 getworker/auth/LoginResponse.class
-getworker/ldap/ldapAuthService.class
+getworker/ldap/LdapAuthService.class

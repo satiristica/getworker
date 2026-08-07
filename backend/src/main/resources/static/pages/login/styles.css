@@ -1,7 +1,7 @@
 body {
     display: flex;
-    background: #08002b;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #c4c4c4;
+    font-family:'Courier New', Courier, monospace;
     justify-content:center;
     align-items: center;
     height: 100vh;
@@ -12,8 +12,9 @@ body {
     width: 400px;
     height: 200px;
     padding: 50px;
-    border: 3px solid #1e00ff;
-    border-radius: 20px;    
+    border: 3px solid #060223;
+    border-radius: 20px;   
+    box-shadow: 0 2px 12px #090031;
 }
 
 form {
@@ -22,6 +23,8 @@ form {
 }
 
 h1 {
+    color: #b8b8b8;
+    letter-spacing: 30%;
     display: flex;
     justify-content: center;
 }
@@ -30,6 +33,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
+    letter-spacing: 10%;
 }
 
 .field label {

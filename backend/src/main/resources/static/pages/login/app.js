@@ -33,6 +33,10 @@ async function loginUser(userData) {
         const result = await response.json();
 
         console.log("Backend response:", result);
+        
+        if (result.success) {
+            window.location.href="/pages/main/index.html";
+        }
 
     } catch (error) {
         console.error("Login error:", error);

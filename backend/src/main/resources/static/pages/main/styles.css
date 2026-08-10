@@ -1,12 +1,12 @@
 body {
-    background-color: #e0dfdf;
+    background-color: #c7c7c7;
     font-family:'Courier New', Courier, monospace;
 }
 
 #myH1 {
     text-align: center;
     margin-top: 5%;
-    color: #a3a3a3;
+    color: #242366;
     letter-spacing: 50%;
     font-size: 40px;
 }

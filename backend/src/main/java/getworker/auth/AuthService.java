@@ -6,6 +6,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthService {
 
+    private final LdapAuthService ldapAuthService;
+    public AuthService(LdapAuthService ldapAuthService) {
+        this.ldapAuthService = ldapAuthService;
+    }
+
     public LoginResponse login(LoginRequest request) {
 
         if (request == null) {
@@ -24,7 +29,7 @@ public class AuthService {
         }
 
         boolean authenticated =
-                LdapAuthService.authenticate(username, password);
+                ldapAuthService.authenticate(username, password);
 
         if (!authenticated) {
             return new LoginResponse(false, "Invalid credentials");

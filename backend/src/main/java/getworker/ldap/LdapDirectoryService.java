@@ -7,6 +7,6 @@ import java.util.ArrayList;
 public class LdapDirectoryService {
 
     public static List<DirectoryResponse> getEmployees() {
-        
+        return new ArrayList<>();
     }
 }

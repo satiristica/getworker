@@ -7,10 +7,17 @@ import java.util.List;
 import getworker.ldap.LdapDirectoryService;
 
 
-@Service 
+@Service
 public class DirectoryService {
-    public List<DirectoryResponse> getEmployees() {
-        List<DirectoryResponse> employees = LdapDirectoryService.getEmployees();
-        return employees;
+
+    private final LdapDirectoryService ldapDirectoryService;
+
+    public DirectoryService(LdapDirectoryService ldapDirectoryService) {
+        this.ldapDirectoryService = ldapDirectoryService;
     }
+
+    public List<DirectoryResponse> getEmployees() {
+        return ldapDirectoryService.getEmployees();
+    }
+    
 }

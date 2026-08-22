@@ -11,6 +11,7 @@ import javax.naming.directory.DirContext;
 import javax.naming.directory.InitialDirContext;
 import java.util.Hashtable;
 
+// todo: replace jndi ldap integration with spring ldap
 @Component
 public class LdapConnection {
 

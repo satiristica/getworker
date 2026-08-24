@@ -1,12 +1,68 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: #c7c7c7;
-    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.myHead {
+    position: relative;
+
+    height: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    background-color: #ffffff;
+    border-bottom: 2px solid #d5d5d5;
+}
+
+
+.company {
+    position: relative;
+    z-index: 2;
+}
+
+
+.Logo {
+    width: 110px;
+
+    filter: invert(1);
+}
+
+
+.directoryContent {
+    min-height: calc(100vh - 110px);
+
+    padding: 1px 0 60px;
+
+    background-color: #201b4f;
 }
 
 #myH1 {
     text-align: center;
     margin-top: 5%;
-    color: #242366;
+    color: #ffffff;
     letter-spacing: 50%;
     font-size: 40px;
 }
@@ -48,7 +104,6 @@ body {
     background-color: #333333;
     color: white;
 }
-
 
 
 

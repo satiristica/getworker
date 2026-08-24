@@ -1,36 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DIRECTORY | LOGIN</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
 </head>
 
-<body>
-    <header class="siteHeader">
 
-        <div class="movingTrain" aria-hidden="true">
-            🚆
+<body class="loginPage">
+
+    <header class="myHead">
+
+        <div class="aTrain" aria-hidden="true">
+            <!-- moving train animation -->
         </div>
 
-        <a class="brand" href="/pages/login/index.html">
+        <div class="company">
             <img
-                class="brandLogo"
+                class="Logo"
                 src="images/loginBox2.png"
-                alt="Silkway Transit"
+                alt="SILKWAY TRANSIT"
             >
-        </a>
-
+        </div>
     </header>
 
-    <main class="loginPage">
+
+    <main class="loginContent">
+
+        <div class="loginBox">
+            <div class="loginIntro">
+                <p>SILKWAY TRANSIT DIRECTORY</p>
+                <h2>Authorize</h2>
+            </div>
+
+            <form id="loginForm" class="loginForm">
+                <div class="field">
+                    <label for="username">USERNAME</label>
+                    <input
+                        id="username"
+                        name="username"
+                        type="text"
+                        autocomplete="username"
+                        placeholder="john.smith"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label for="password">PASSWORD</label>
+                    <input
+                        id="password"
+                        name="password"
+                        type="password"
+                        autocomplete="current-password"
+                        placeholder="Enter password here"
+                        required
+                    >
+                </div>
+
+                <button id="myButton" type="submit">SUBMIT</button>
+            </form>
+        </div>
+
+
+        <div class="loginStatus">
+            <video
+                class="trainVideo"
+                autoplay
+                loop
+                muted
+                playsinline
+                disablepictureinpicture
+                disableremoteplayback
+                controlslist="nodownload noplaybackrate noremoteplayback"
+                tabindex="-1"
+                aria-hidden="true"
+            >
+                <source src="images/trainsMove.mp4" type="video/mp4">
+            </video>
+
+            <div class="statusText">
+                <h1 id="myH1">Welcome Back!</h1>
+                <p id="myP1">AUTHORIZE TO ACCESS THE DIRECTORY</p>
+            </div>
+        </div>
 
     </main>
-</body>
 
+</body>
 </html>

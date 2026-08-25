@@ -52,3 +52,39 @@ password: password
 ```bash
 docker compose down
 ```
+
+
+## Архитектура 
+
+Представляет из себя монолитное Spring Boot приложение с функциональными модулями. Backend и фронтенд собираются в одно приложение и запускаются вместе. OpenLDAP запускается в отдельном докер-контейнере. 
+
+### Основные компоненты: 
+- auth: принимает данные авторизации и проверяет пользователя через LDAP.
+- directory: предоставляет список сотрудников и обрабатывает поиск 
+- ldap: создает LDAP соединения, делает авторизацию и поиск сотрудников
+- static/pages: страницы авторизации и справочника 
+- docker: описание ЛДАП и тестовые данные 
+
+### Workflow авторизации: 
+```text
+Login Page
+    -> AuthController
+    -> AuthService
+    -> LdapAuthService
+    -> LdapConnection
+    -> OpenLDAP
+```
+
+### Workflow получения сотрудников: 
+```text 
+Directory
+    -> DirectoryController
+    -> DirectoryService
+    -> LdapDirectoryService
+    -> LdapConnection 
+    -> OpenLDAP
+``` 
+
+Springboot возвращает data в json, после JS создает строки таблицы на странице
+
+Подробное описание архитектуры и модулей в docs/README.md

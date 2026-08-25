@@ -1,39 +1,54 @@
-# GetWorker 
+# GetWorker
 
 Внутренний справочник сотрудников компании Silkway Transit.
 
-Веб-приложение использует OpenLDAP для авторизации пользователей, получения контактных данных сотрудников и поиска по справочнику. 
+Веб-приложение использует OpenLDAP для авторизации пользователей, получения контактных данных сотрудников и поиска по справочнику.
 
-## Запуск проекта 
+## Запуск проекта
 
-### Требования: 
+### Требования:
 
-- git 
-- docker 
-- docker compose 
+- git
+- docker
+- docker compose
 
-### Быстрый запуск: 
+### Быстрый запуск:
 
-1. 
-git clone https://github.com/satiristica/getworker.git 
+1.
 
-2. 
-cd getworker
+   ```bash
+   git clone https://github.com/satiristica/getworker.git
+   ```
 
-3. 
-docker compose up --build 
+2.
 
-При первом запуске docker автоматически загрузит необходимые образы и соберёт backend 
+   ```bash
+   cd getworker
+   ```
 
-Страница авторизации: 
+3.
+
+   ```bash
+   docker compose up --build
+   ```
+
+При первом запуске docker автоматически загрузит необходимые образы и соберёт backend
+
+Страница авторизации:
+
+```text
 http://localhost:8080/pages/login/index.html
+```
 
-для проверки тестового пользователя: 
+для проверки тестового пользователя:
+
+```text
 login: john.smith
-password: password 
+password: password
+```
 
-остановить запущенные контейнеры: 
+остановить запущенные контейнеры:
 
+```bash
 docker compose down
-
-
+```

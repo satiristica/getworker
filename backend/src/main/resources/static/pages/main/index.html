@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory</title>
 
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="./app.js?v=1" defer></script>
+    <link rel="stylesheet" href="styles.css?v=2" type="text/css">
+    <script src="./app.js?v=3" defer></script>
 </head>
 
 
@@ -24,6 +24,17 @@
 
     <main class="directoryContent">
         <h1 id="myH1">DIRECTORY</h1>
+
+        <div class="searchBox">
+            <input
+                id="employeeSearch"
+                type="search"
+                placeholder="SEARCH EMPLOYEES"
+                autocomplete="off"
+            >
+
+            <p id="employeeCount">0 EMPLOYEES</p>
+        </div>
 
         <table id="myTable">
             <thead>

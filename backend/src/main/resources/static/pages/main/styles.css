@@ -67,12 +67,40 @@ img {
     font-size: 40px;
 }
 
+.searchBox {
+    width: 67%;
+    margin: 50px auto 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#employeeSearch {
+    flex: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#employeeCount {
+    margin: 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
 #myTable {
     background-color: #fff;
     border: 2px solid #000000;
     border-collapse: collapse;
     width: 67%;
-    margin: 50px auto 0;
+    margin: 0 auto;
     box-shadow: 0 2px 12px #0d0339;
     
 }
@@ -104,8 +132,6 @@ img {
     background-color: #333333;
     color: white;
 }
-
-
 
 
 

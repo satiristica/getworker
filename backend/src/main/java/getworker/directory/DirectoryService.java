@@ -16,8 +16,8 @@ public class DirectoryService {
         this.ldapDirectoryService = ldapDirectoryService;
     }
 
-    public List<DirectoryResponse> getEmployees() {
-        return ldapDirectoryService.getEmployees();
+    public List<DirectoryResponse> getEmployees(String search) {
+        return ldapDirectoryService.getEmployees(search);
     }
     
 }

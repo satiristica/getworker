@@ -30,7 +30,7 @@ public class LdapDirectoryService {
         this.adminPassword = adminPassword;
     }
 
-    public List<DirectoryResponse> getEmployees() {
+    public List<DirectoryResponse> getEmployees(String search) {
         List<DirectoryResponse> employees = new ArrayList<>();
 
         try {
@@ -42,10 +42,17 @@ public class LdapDirectoryService {
                     SearchControls.SUBTREE_SCOPE
             );
 
+            String searchValue = search == null ? "" : search.trim();
+
+            String filter = "(&(objectClass=inetOrgPerson)"
+                    + "(|(givenName={0}*)(sn={0}*)"
+                    + "(telephoneNumber={0}*)(mail={0}*)))";
+
             NamingEnumeration<SearchResult> results =
                     connection.search(
                             "ou=Employees,dc=admin,dc=local",
-                            "(objectClass=inetOrgPerson)",
+                            filter,
+                            new Object[]{searchValue},
                             searchControls
                     );
 
